@@ -1,3 +1,17 @@
 <main>
-  Authorization code successfully received!
+  The authenticated user is:
+  <table>
+    <tr>
+      <td>User ID:</td>
+      <td><%= session[:user_id] %></td>
+    </tr>
+    <tr>
+      <td>User Name:</td>
+      <td><%= session[:user_name] %></td>
+    </tr>
+    <tr>
+      <td>User Email:</td>
+      <td><%= session[:user_email] %></td>
+    </tr>
+  </table>
 </main>
