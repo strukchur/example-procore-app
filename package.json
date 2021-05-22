@@ -2,6 +2,7 @@
   "name": "example-procore-app",
   "private": true,
   "dependencies": {
+    "@procore/procore-iframe-helpers": "^0.1.2",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",
     "@rails/ujs": "^6.0.0",
